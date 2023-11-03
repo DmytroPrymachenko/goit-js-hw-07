@@ -20,12 +20,12 @@ const galleryItemsEl = galleryItems.map((galleryInfo) => {
 });
 gallery.insertAdjacentHTML("beforeend", galleryItemsEl.join(""));
 
-const onGalleryItemClick = (event) => {
-  event.preventDefault();
-  if (event.target.nodeName !== "IMG") {
-    return;
-  }
-};
+// const onGalleryItemClick = (event) => {
+//   event.preventDefault();
+//   if (event.target.nodeName !== "IMG") {
+//     return;
+//   }
+// };
 
 // const SimpleLightboxOptions = {
 // new  SimpleLightbox ( '.gallery', { } ) ;
